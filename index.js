@@ -6,7 +6,7 @@ class Polygon {
     return this.sides.length;
   }
   get perimeter(){
-    return this.sides.reduce((acc, el) => return el+acc,0);
+    return this.sides.reduce((acc, el) =>el+acc,0);
   }
 
 }
